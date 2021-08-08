@@ -1,0 +1,110 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+header .logo{
+    align-self: auto;
+    width: 10%;
+    
+}
+
+header nav a{
+    text-decoration:none;
+    color:rgb(245, 238, 238);
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+
+header nav a:hover{
+    color:rgb(184, 184, 184);
+}
+
+/*curso principal */
+.curso-principal {
+    
+    display: flex;
+    
+    align-items: flex-start;
+
+    font-size: 16px;
+    background: linear-gradient(rgb(0,0,0,.50),rgb(0,0,0,.50)100%), url('../img/capa.jpg');
+    
+    height: 350px;
+    background-size: cover; 
+    
+}
+
+.botao{
+    
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;   
+ 
+}
+
+.botao:hover{
+    background-color:rgb(197, 197, 197);
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.botoes a{
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.curso-principal .container{
+    width: 40%;
+}
+
+.box-curso{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+
+.carrosel-cursos{
+    margin-top:5px;
+}
