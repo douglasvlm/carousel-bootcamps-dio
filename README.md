@@ -1,2 +1,2 @@
 # carousel-bootcamps-dio
-Carousel de Bootcamps da DIO.
+Página de Bootcamps da DIO.
