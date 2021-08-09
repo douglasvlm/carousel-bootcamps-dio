@@ -5,14 +5,9 @@
     }
 
     .botao{
-        margin-top: 5px;
+        margin-top: 60px;
+        margin-left: 7px;
         width: 300px;
     }
 
-}
-
-@media screen and (min-width:1000px){
-    .descricao{
-        width: 50%;
-    }
 }

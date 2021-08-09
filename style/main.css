@@ -1,11 +1,12 @@
 :root{
-    --vermelho:#E50914;
-    --preta:#141414;
+   --preta:#141414;
+   --branca: rgb(245, 238, 238);
+   --cinza: rgb(184, 184, 184);
 }
 
 *{
-    margin:0;
-    padding:0;
+    margin: 0, 1px, 0, 1px;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -13,7 +14,7 @@
 body{
    background: var(--preta);
    font-family: 'Arial', Times, serif;
-   color:white;
+   color: var(--branca);
 }
 
 
@@ -22,62 +23,50 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
+      
 }
 
 
 header .logo{
-    align-self: auto;
-    width: 10%;
-    
+     width: 10%;
 }
 
 header nav a{
     text-decoration:none;
-    color:rgb(245, 238, 238);
-    margin-right: 5px;
+    color:var(--branca);
+    margin-right: 15px;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 
 header nav a:hover{
-    color:rgb(184, 184, 184);
+    color: var(--cinza);
 }
 
 /*curso principal */
 .curso-principal {
-    
-    display: flex;
-    
-    align-items: flex-start;
-
-    font-size: 16px;
-    background: linear-gradient(rgb(0,0,0,.50),rgb(0,0,0,.50)100%), url('../img/capa.jpg');
-    
+    background:  url('../img/capa.jpg');
     height: 350px;
-    background-size: cover; 
-    
+    background-size: cover;    
 }
 
 .botao{
-    
     background-color: rgba(0,0,0,.50);
     border:none;
     color: white;
-
     padding:15px 30px;
-    margin-right: 15px;
+    margin-right: 1px;
+    margin-top: 30%;
     font-size: 12px;
-
     cursor: pointer;
-    transition: .3s ease all;   
- 
+    transition: .3s ease all;    
 }
 
 .botao:hover{
-    background-color:rgb(197, 197, 197);
+    background-color: var(--cinza);
     color:black;
+    
 }
 
 .botao i{
@@ -85,8 +74,9 @@ header nav a:hover{
 }
 
 .botoes a{
-    color: rgb(230, 230, 230);
+    color: var(--branca);
     text-decoration: none;
+    
 }
 
 .container{
@@ -94,17 +84,15 @@ header nav a:hover{
 }
 
 .curso-principal .container{
-    width: 40%;
+    width: 30%;
 }
 
 .box-curso{
-    height: 100%;
-    width: 100%;
     display: block;
     cursor: pointer;
 }
 
-
 .carrosel-cursos{
-    margin-top:5px;
+    margin-top: 10px;
+    
 }
