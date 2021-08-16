@@ -12,6 +12,6 @@
 </div>
 <hr/>
 <div align="center">
-    <img src="./_index.png" width="1000" height="568"/>
+    <img src="./_index.png" width="1000" height="510"/>
     <hr/>
 </div>
